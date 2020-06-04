@@ -218,7 +218,7 @@ def main():
         trip_duration_stats(df)
         user_stats(df, city)
         
-        # Ask user if they want to see raw data, taking input errors into account
+        # Ask user if they want to see raw data, taking input errors into account, displaying 5 lines of raw data each time
         raw_data = input('\nWould you like to view the raw data? Enter yes or no.\n')
         start = 0
         stop = 5
@@ -232,7 +232,7 @@ def main():
             while raw_data.lower() != 'no' and raw_data.lower() != 'yes':
                 raw_data = input('Invalid entry. Please enter yes or no.')
         
-        # Added input error logic to restart variable
+        # Added input error logic to restart variable, now it matches the rest of the program
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         while restart.lower() != 'no' and restart.lower() != 'yes':
             restart = input('Invalid entry. Please enter yes or no.')
