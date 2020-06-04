@@ -16,6 +16,8 @@ Mean travel time
 User type (customer or subscriber)
 User gender
 Earliest age
+Most recent age
+Most common year of birth
 
 It is also possible to browse through the raw data which generated the statistics.
 
