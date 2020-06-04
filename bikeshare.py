@@ -32,7 +32,7 @@ def get_filters():
     while month not in {'January', 'February', 'March', 'April', 'May', 'June', 'All'}:
         month = input('Invalid entry, please try again.\nEnter the name of a month (January-June) or all for every month. \nPlease enter month to analyze: ').title()
         
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # Get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Enter a day of the week or all for every day. \nPlease enter day to analyze: ').title()
     while day not in {'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'All'}:
         day = input('Invalid entry, please try again.\nEnter a day of the week or all for every day. \nPlease enter day to analyze: ').title()
