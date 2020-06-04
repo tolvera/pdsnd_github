@@ -27,7 +27,7 @@ def get_filters():
     while city not in {'Chicago', 'New York City', 'Washington'}:
         city = input('Invalid entry, please try again.\nAvailable cities: Chicago, New York City or Washington\nPlease enter city to analyze: ').title()
 
-    # get user input for month (all, january, february, ... , june)
+    # Get user input for month (all, january, february, ... , june)
     month = input('Enter the name of a month (January-June) or all for every month. \nPlease enter month to analyze: ').title()
     while month not in {'January', 'February', 'March', 'April', 'May', 'June', 'All'}:
         month = input('Invalid entry, please try again.\nEnter the name of a month (January-June) or all for every month. \nPlease enter month to analyze: ').title()
