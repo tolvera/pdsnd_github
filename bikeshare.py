@@ -22,17 +22,17 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # Get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('Available cities: Chicago, New York City or Washington\nPlease enter city to analyze: ').title()
     while city not in {'Chicago', 'New York City', 'Washington'}:
         city = input('Invalid entry, please try again.\nAvailable cities: Chicago, New York City or Washington\nPlease enter city to analyze: ').title()
 
-    # get user input for month (all, january, february, ... , june)
+    # Get user input for month (all, january, february, ... , june)
     month = input('Enter the name of a month (January-June) or all for every month. \nPlease enter month to analyze: ').title()
     while month not in {'January', 'February', 'March', 'April', 'May', 'June', 'All'}:
         month = input('Invalid entry, please try again.\nEnter the name of a month (January-June) or all for every month. \nPlease enter month to analyze: ').title()
         
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # Get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Enter a day of the week or all for every day. \nPlease enter day to analyze: ').title()
     while day not in {'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'All'}:
         day = input('Invalid entry, please try again.\nEnter a day of the week or all for every day. \nPlease enter day to analyze: ').title()
