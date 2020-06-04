@@ -34,7 +34,7 @@ Total travel time
 Mean travel time
 User type (customer or subscriber)
 User gender
-User age
+Earliest age
 
 It is also possible to browse through the raw data which generated the statistics.
 >>>>>>> 7598f94... docs: updated readme.md file with bikeshare project information
