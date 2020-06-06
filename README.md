@@ -5,7 +5,6 @@
 U.S. Bikeshare Data
 
 ### Description
-<<<<<<< HEAD
 This program provides bike sharing data for several U.S. cities. The user inputs the city, month and day to be analyzed. 
 
 The program will return:
@@ -21,23 +20,6 @@ Most recent age
 Most common year of birth
 
 It is also possible to browse through the raw data which generated the statistics.
-||||||| parent of 7598f94... docs: updated readme.md file with bikeshare project information
-Describe what your project is about and what it does
-=======
-This program provides bike sharing data for several U.S. cities. The user inputs the city, month and day to be analyzed. 
-
-The program will return:
-Most popular starting hour
-Most popular start and end station
-Most popular trip (from one station to another)
-Total travel time
-Mean travel time
-User type (customer or subscriber)
-User gender
-Earliest age
-
-It is also possible to browse through the raw data which generated the statistics.
->>>>>>> 7598f94... docs: updated readme.md file with bikeshare project information
 
 ### Files used
 chicago.csv
